@@ -4,3 +4,50 @@ $susy: (
   columns: 12,
   gutters: 0
 );
+
+// sizes here needs to be the same as in the used theme
+$phablet: "450px";
+$tabletPortrait: "650px";
+$tabletLandscape: "900px";
+$desktop: "1200px";
+$hdDesktop: "1800px";
+
+.row {
+    @include container;
+}
+
+.span-3 {
+    @include span(12);
+}
+
+
+
+@media screen and (min-width: $phablet) {
+    .span-3 {
+        @include span(12);
+    }
+}
+
+@media screen and (min-width: $tabletPortrait) {
+    .span-3 {
+        @include span(6);
+    }
+}
+
+@media screen and (min-width: $tabletLandscape) {
+    .span-3 {
+        @include span(3);
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .span-3 {
+        @include span(3);
+    }
+}
+
+@media screen and (min-width: $hdDesktop) {
+    .span-3 {
+        @include span(3);
+    }
+}

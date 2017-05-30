@@ -1,6 +1,6 @@
 {
   "name": "react-redux-seed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a react-redux seed project to quickly setup a new project",
   "main": "bin/index.html",
   "scripts": {
@@ -9,7 +9,7 @@
     "dev-server": "webpack-dev-server --content-base bin/"
   },
   "author": "Wolfgang Beer <wolfgang@app-dev.io>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.16.1",
     "babel-polyfill": "^6.23.0",
@@ -21,6 +21,7 @@
     "redux": "^3.6.0",
     "redux-promise-middleware": "^4.2.0",
     "redux-thunk": "^2.2.0",
+    "styled-components": "^2.0.0",
     "susy": "^2.2.12",
     "uuid": "^3.0.1"
   },

@@ -1,6 +1,11 @@
 @import "base/reset";
-@import "base/variables";
 @import "base/fonts";
 @import "base/grid";
 
-@import "components/app/index";
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headerFont;
+}
+
+p, a, label {
+    font-family: $labelFont;
+}
