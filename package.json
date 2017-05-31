@@ -8,7 +8,7 @@
     "production": "webpack -p --config webpack.config.js",
     "dev-server": "webpack-dev-server --content-base bin/"
   },
-  "author": "Wolfgang Beer <wolfgang@app-dev.io>",
+  "author": "Wolfgang Beer <wolfgang.appdev@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.16.1",
